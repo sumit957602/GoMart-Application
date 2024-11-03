@@ -10,7 +10,7 @@ namespace GoMartApplication
 {
     class DBConnect
     {
-        private SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-I69OQPV\SQLEXPRESS;Initial Catalog=GoMartDB;Integrated Security=True");
+        private SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-I3FPVPU\SQLEXPRESS;Initial Catalog=GoMart DB;Integrated Security=True");
         public SqlConnection GetCon()
         {
             return con;
